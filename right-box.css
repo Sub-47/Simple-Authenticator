@@ -1,6 +1,6 @@
 .right-box {
   grid-area: b2;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding: 0px;
   max-width: 540px;
   height: auto;
