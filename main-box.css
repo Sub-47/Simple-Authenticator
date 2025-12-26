@@ -3,13 +3,10 @@ body {
   font-family: system-ui, sans-serif;
 }
 #desktop1{
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  color:blue;
- margin:0px;
- margin-left:400px;
- margin-top:200px;
+  position: static;
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: #2563EB;
 }
 
 .main{
