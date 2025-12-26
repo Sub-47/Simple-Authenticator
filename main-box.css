@@ -3,7 +3,6 @@ body {
   font-family: system-ui, sans-serif;
 }
 #desktop1{
-  position: static;
   margin: 0 0 8px 0;
   font-size: 14px;
   color: #2563EB;
