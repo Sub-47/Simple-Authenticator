@@ -1,0 +1,24 @@
+.left-box {
+  color: blue;
+  grid-area: b1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px solid blue;
+  padding: 50px;
+  margin: 0;
+}
+
+.left-h1 {
+  font-size: 20px;
+}
+
+#p1-left {
+  font-size: 30px;
+}
+
+#p2-left {
+  font-size: 18px;
+  color: #6B7280;
+  margin-bottom: 24px;
+}

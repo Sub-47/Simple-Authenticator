@@ -1,0 +1,40 @@
+body {
+  background-color: #F7F9FC;
+  font-family: system-ui, sans-serif;
+}
+#desktop1{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color:blue;
+ margin:0px;
+ margin-left:400px;
+ margin-top:200px;
+}
+
+.main{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-box {
+  display: grid;
+
+  grid-template-areas:
+    "b1 b2"
+    "b1 b3";
+
+  grid-template-columns: 5fr 6fr;
+  grid-template-rows: auto auto;
+  row-gap: 16px;
+  column-gap: 40px;
+  gap: 50px;
+  padding: 24px 48px;
+
+  border: 2px solid brown;
+
+  width: 100%;
+  max-width: 1440px;
+}
+
